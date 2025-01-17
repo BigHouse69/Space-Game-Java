@@ -20,7 +20,7 @@ public class Enemies {
         effects = new Effects();
 
         try {
-            String pathImg = "C:/Users/gabri/IdeaProjects/CopyPage/src/main/java/scrapping/imgs/enemy.png";
+            String pathImg = "src/main/java/scrapping/imgs/enemy.png";
             enemyImg = ImageIO.read(new File(pathImg));
         } catch (IOException e ){
             e.printStackTrace();

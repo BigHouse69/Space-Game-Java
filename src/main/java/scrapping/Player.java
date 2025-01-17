@@ -34,7 +34,7 @@ public class Player {
 
     private void loadImg(){
         try {
-            String path_img = "C:/Users/gabri/IdeaProjects/CopyPage/src/main/java/scrapping/imgs/player.png";
+            String path_img = "src/main/java/scrapping/imgs/player.png";
             playerImg = ImageIO.read(new File(path_img));
         } catch (IOException e ){
             e.printStackTrace();
